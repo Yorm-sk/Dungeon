@@ -36,4 +36,8 @@ public class DungeonKnightMap extends CommonMap {
 //TODO: fill array with rooms
         return result;
     }
+
+    public void Test(){
+        System.out.println("It is a test for a branch");
+    }
 }
