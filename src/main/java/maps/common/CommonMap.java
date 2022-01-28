@@ -1,10 +1,9 @@
 package maps.common;
+
+import rooms.common.CommonRoom;
 /**
  * Class contain main information about map
  */
-
-import rooms.common.CommonRoom;
-
 public abstract class CommonMap implements MapFunctions {
     private CommonRoom[] map; // here rooms will be dislocated
     private int size; // set a basic size of a map without specials rooms
